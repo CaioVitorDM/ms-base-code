@@ -86,7 +86,6 @@ public interface GenericService<E extends BaseEntity, DTO> {
         E updatedEntity = getDtoMapper().toEntity(dto);
         updatedEntity.setId(id);
         validateBeforeUpdate(updatedEntity);
-        getRepository().save(updatedEntity);
 
         return getDtoMapper().toDto(getRepository().save(updatedEntity));
     }
@@ -97,9 +96,7 @@ public interface GenericService<E extends BaseEntity, DTO> {
      * @param id The ID of the entity to be deleted.
      */
     default void deleteById(Long id) {
-        E entity = getRepository().findById(id).orElseThrow(() -> new ResourceNotFoundException("Id not found: " + id));
-        entity.setActive(false);
-        getRepository().save(entity);
+        getRepository().deleteById(id);
     }
 
     /**
