@@ -1,4 +1,4 @@
-package ufrn.imd.br.utils.exception;
+package ufrn.imd.br.msbasecode.utils.exception;
 
 import java.time.ZonedDateTime;
 

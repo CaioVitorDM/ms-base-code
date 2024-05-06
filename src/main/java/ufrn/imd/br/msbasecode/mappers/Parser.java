@@ -1,8 +1,8 @@
-package ufrn.imd.br.mappers;
+package ufrn.imd.br.msbasecode.mappers;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ufrn.imd.br.utils.exception.ConversionException;
+import ufrn.imd.br.msbasecode.utils.exception.ConversionException;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

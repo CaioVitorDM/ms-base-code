@@ -1,4 +1,4 @@
-package ufrn.imd.br.model;
+package ufrn.imd.br.msbasecode.model;
 
 import jakarta.persistence.*;
 

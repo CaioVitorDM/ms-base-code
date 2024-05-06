@@ -1,13 +1,14 @@
-package ufrn.imd.br.service;
+package ufrn.imd.br.msbasecode.service;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
-import ufrn.imd.br.mappers.DtoMapper;
-import ufrn.imd.br.model.BaseEntity;
-import ufrn.imd.br.repository.GenericRepository;
-import ufrn.imd.br.utils.exception.ResourceNotFoundException;
-import ufrn.imd.br.utils.validators.GenericEntityValidator;
+import ufrn.imd.br.msbasecode.mappers.DtoMapper;
+import ufrn.imd.br.msbasecode.model.BaseEntity;
+import ufrn.imd.br.msbasecode.repository.GenericRepository;
+import ufrn.imd.br.msbasecode.utils.exception.ResourceNotFoundException;
+import ufrn.imd.br.msbasecode.utils.validators.GenericEntityValidator;
+
 
 /**
  * A generic service interface defining common operations for entities in the

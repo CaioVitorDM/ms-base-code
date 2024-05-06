@@ -1,4 +1,4 @@
-package ufrn.imd.br.dto;
+package ufrn.imd.br.msbasecode.dto;
 
 public interface EntityDTO {
     EntityDTO toResponse();

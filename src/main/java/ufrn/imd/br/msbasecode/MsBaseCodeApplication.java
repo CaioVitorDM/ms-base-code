@@ -1,4 +1,4 @@
-package Application;
+package ufrn.imd.br.msbasecode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

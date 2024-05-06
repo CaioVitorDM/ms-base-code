@@ -1,4 +1,4 @@
-package ufrn.imd.br.utils.exception;
+package ufrn.imd.br.msbasecode.utils.exception;
 
 /**
  * Exception thrown when problem occurs during data conversion.

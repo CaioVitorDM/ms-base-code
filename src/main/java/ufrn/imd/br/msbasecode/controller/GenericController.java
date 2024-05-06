@@ -1,4 +1,4 @@
-package ufrn.imd.br.controller;
+package ufrn.imd.br.msbasecode.controller;
 
 import jakarta.validation.Valid;
 import org.springdoc.core.annotations.ParameterObject;
@@ -8,10 +8,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import ufrn.imd.br.dto.ApiResponseDTO;
-import ufrn.imd.br.dto.EntityDTO;
-import ufrn.imd.br.model.BaseEntity;
-import ufrn.imd.br.service.GenericService;
+import ufrn.imd.br.msbasecode.dto.ApiResponseDTO;
+import ufrn.imd.br.msbasecode.dto.EntityDTO;
+import ufrn.imd.br.msbasecode.model.BaseEntity;
+import ufrn.imd.br.msbasecode.service.GenericService;
 
 /**
  * A generic controller providing common CRUD operations for entities in the

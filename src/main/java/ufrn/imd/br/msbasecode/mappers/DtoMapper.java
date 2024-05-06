@@ -1,4 +1,4 @@
-package ufrn.imd.br.mappers;
+package ufrn.imd.br.msbasecode.mappers;
 
 import java.util.List;
 

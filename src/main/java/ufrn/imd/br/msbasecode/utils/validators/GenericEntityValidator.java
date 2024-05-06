@@ -1,10 +1,10 @@
-package ufrn.imd.br.utils.validators;
+package ufrn.imd.br.msbasecode.utils.validators;
 
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
 import org.springframework.http.HttpStatus;
-import ufrn.imd.br.utils.exception.BusinessException;
+import ufrn.imd.br.msbasecode.utils.exception.BusinessException;
 
 import java.util.Set;
 

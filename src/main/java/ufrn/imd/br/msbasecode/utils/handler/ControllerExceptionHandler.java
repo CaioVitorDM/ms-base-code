@@ -1,4 +1,4 @@
-package ufrn.imd.br.utils.handler;
+package ufrn.imd.br.msbasecode.utils.handler;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.validation.ConstraintViolation;
@@ -10,11 +10,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.TransactionSystemException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import ufrn.imd.br.dto.ApiResponseDTO;
-import ufrn.imd.br.utils.exception.BusinessException;
-import ufrn.imd.br.utils.exception.ConversionException;
-import ufrn.imd.br.utils.exception.ErrorDTO;
-import ufrn.imd.br.utils.exception.ResourceNotFoundException;
+import ufrn.imd.br.msbasecode.dto.ApiResponseDTO;
+import ufrn.imd.br.msbasecode.utils.exception.BusinessException;
+import ufrn.imd.br.msbasecode.utils.exception.ConversionException;
+import ufrn.imd.br.msbasecode.utils.exception.ErrorDTO;
+import ufrn.imd.br.msbasecode.utils.exception.ResourceNotFoundException;
+
 
 import java.time.ZonedDateTime;
 import java.util.ArrayList;

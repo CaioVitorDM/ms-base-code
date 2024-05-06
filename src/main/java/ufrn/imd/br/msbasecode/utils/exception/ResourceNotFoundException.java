@@ -1,4 +1,4 @@
-package ufrn.imd.br.utils.exception;
+package ufrn.imd.br.msbasecode.utils.exception;
 
 /**
  * Exception thrown when a requested resource is not found.

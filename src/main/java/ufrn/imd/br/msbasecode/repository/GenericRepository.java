@@ -1,9 +1,9 @@
-package ufrn.imd.br.repository;
+package ufrn.imd.br.msbasecode.repository;
 
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.NoRepositoryBean;
-import ufrn.imd.br.model.BaseEntity;
+import ufrn.imd.br.msbasecode.model.BaseEntity;
 
 import java.util.Optional;
 

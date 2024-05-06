@@ -1,4 +1,4 @@
-package ufrn.imd.br;
+package ufrn.imd.br.msbasecode;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

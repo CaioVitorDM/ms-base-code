@@ -1,4 +1,4 @@
-package ufrn.imd.br.dto;
+package ufrn.imd.br.msbasecode.dto;
 
 public class ApiResponseDTO<DTO> {
     private boolean success;
